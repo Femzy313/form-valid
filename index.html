@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Contact Form</title>
+</head>
+<body>
+  <form id="form">
+    <div class="contact-us-form">
+      <h1>Contact Us</h1>
+     <div class="first-last-name">
+     <div>
+     <label for="first-name">First Name *</label> <br>
+     <input type="text" required id="name">
+     </div>
+     <div>
+        <label for="last-name">Last Name *</label> <br>
+     <input type="text" required>
+     </div>
+      </div>
+     <div class="email">
+     <label for="email">Email Address *</label> <br> <br>
+     <input type="email" required>
+      </div>
+      <div class="query-type">
+     <label for="">Query Type *</label> <br><br>
+     <div class="general-support">
+        <div class="general">
+           <input type="radio" required>
+            <label for="">General Enquiry</label>
+        </div>
+        <div class="support">
+            <input type="radio" required>
+            <label for="">Support Request</label>
+        </div>
+     </div>
+     </div>
+      <div class="message">
+      <label for="message">Message *</label> <br> <br>
+      <textarea name="message" id="message" required></textarea>
+     </div>
+     <div class="consent">
+      <input type="checkbox" required>
+     <label for=""> I consent to being contacted by the team *</label>
+     </div class="btn">
+      <button class="submit" id="submit" type="submit" onclick="click">Submit</button>
+     </div>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

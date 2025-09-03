@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    background-color: hsl(148, 38%, 91%);
+}
+.contact-us-form{
+    background-color: hsl(0, 0%, 100%);
+    width: 120vh auto;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-radius: 15px;
+    border: 15px solid white;
+}
+.contact-us-form h1{
+    padding-bottom: 30px;
+}
+.first-last-name{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.first-last-name label{
+    font-size: 18px;
+}
+.first-last-name input{
+    width: 38vh;
+    height: 6vh;
+    border-radius: 5px;
+}
+.first-last-name input.error{
+    border: 1px solid hsl(0, 66%, 54%);
+}
+.email{
+    padding-bottom: 30px;
+}
+.email label{
+    font-size: 18px;
+}
+.email input{
+    width: 80vh;
+    height: 6vh;
+    border-radius: 5px;
+}
+.query-type{
+    padding-bottom: 30px;
+}
+.query-type label{
+    font-size: 18px;
+}
+.general-support{
+    display: flex;
+    gap: 10px;
+}
+.general{
+    display: flex;
+    gap: 15px;
+    width: 40vh ;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 5px;
+}
+.general input{
+    width: 17px;
+}
+.general input{
+    font-size: 16px;
+}
+.support{
+    display: flex;
+    gap: 15px;
+    width: 40vh;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px solid;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.support input{
+    width: 17px;
+}
+.support input{
+    font-size: 16px;
+}
+.message{
+    padding-bottom: 30px;
+}
+.message label{
+    font-size: 16px;
+}
+.message textarea{
+    width: 78vh;
+    height: 15vh;
+    resize: none;
+    border-radius: 5px;
+}
+.consent{
+    padding-bottom: 30px;
+    display: flex;
+    gap: 18px;
+}
+.consent input{
+    width: 18px;
+}
+.consent label{
+    font-size: 18px;
+}
+button{
+   width: 78vh;
+   height: 40px; 
+   color: white;
+   background-color: hsl(169, 82%, 27%);
+   cursor: pointer;
+   border-radius: 5px;
+   border: none;
+}
+
+@media(max-width:1024px){
+    .contact-us-form{
+    width: 100vh auto;
+}
+.first-last-name input{
+    width: 42vh;
+}
+.email input{
+    width: 85vh;
+}
+.general{
+    gap: 10px;
+    width: 42vh;
+    padding-top: 18px;
+}
+.support{
+    gap: 10px;
+    width: 42vh;
+    padding-top: 18px;
+}
+.message textarea{
+    width: 85vh;
+}
+.consent{
+    gap: 10px;
+}
+button{
+   width: 85vh;
+}
+}
+
+@media(max-width:720px){
+   .contact-us-form{
+     width: 80vh auto;
+   } 
+   .first-last-name input{
+    width: 34vh;
+    height: 6vh;
+    border-radius: 5px;
+   }
+   .email input{
+    width: 70vh;
+   }
+   .general{
+    gap: 10px;
+    width: 34vh;
+    padding-top: 18px;
+   }
+   .support{
+    gap: 10px;
+    width: 34vh;
+    padding-top: 18px;
+   }
+   .message textarea{
+    width: 70vh;
+   }
+   .consent{
+    gap: 10px;
+    }
+   button{
+   width: 70vh;
+   }
+}
+
+@media(max-width:590px){
+   .contact-us-form{
+     width: 68vh auto;
+   } 
+   .first-last-name input{
+    width: 30vh;
+    height: 6vh;
+    border-radius: 5px;
+   }
+   .email input{
+    width: 62vh;
+   }
+   .general{
+    gap: 10px;
+    width: 30vh;
+    padding-top: 18px;
+   }
+   .support{
+    gap: 10px;
+    width: 30vh;
+    padding-top: 18px;
+   }
+   .message textarea{
+    width: 62vh;
+   }
+   .consent{
+    gap: 10px;
+    }
+   button{
+   width: 62vh;
+   }
+}
+@media(max-width:475px){
+   .contact-us-form{
+     width: 65vh auto;
+     padding-left: 30px;
+   } 
+   .first-last-name input{
+    width: 25vh;
+    height: 6vh;
+    border-radius: 5px;
+   }
+   .email input{
+    width: 50vh;
+   }
+   .general{
+    gap: 10px;
+    width: 25vh;
+    padding-top: 18px;
+   }
+   .support{
+    gap: 10px;
+    width: 25vh;
+    padding-top: 18px;
+   }
+   .message textarea{
+    width: 50vh;
+   }
+   .consent{
+    gap: 10px;
+    }
+   button{
+   width: 50vh;
+   }
+}
+
+@media(max-width:430px){
+    .first-last-name{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  .contact-us-form{
+    width: 70vh auto;
+    padding-left: 30px;
+}
+.first-last-name input{
+    width: 40vh;
+    height: 6vh;
+}
+.email input{
+    width: 40vh;
+    height: 6vh;
+}
+.general-support{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.general{
+    gap: 15px;
+    width: 40vh;
+    height: 6vh;
+}
+.support{
+    gap: 15px;
+    width: 40vh;
+    height: 6vh;
+   
+    
+}
+.message textarea{
+    width: 40vh;
+    height: 10vh;
+     max-height: auto;
+}
+.consent{
+    gap: 5px;
+    width: 40vh;
+}
+button{
+   width: 40vh;
+    height: 6vh;
+}
+}
